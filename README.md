@@ -1,5 +1,5 @@
 # RaspberryPi_Kernel
-A Rpi kernel for the embedded systems course.
+A Rpi kernel for the embedded systems course done with a Ubuntu 20.04 LTS virtual machine.
 
 ### Install required dependencies
 
@@ -50,3 +50,18 @@ Then, for all:
 ```sh
 $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- zImage modules dtbs
 ```
+
+### Install into SD Card
+
+I have a NOOBS sd card so sdb6 is the FAT (boot) partition, and sdb7 is the ext4 filesystem (root) partition.
+
+Mount these first, adjusting the partition numbers for NOOBS cards (as necessary):
+```sh
+$ mkdir mnt
+$ mkdir mnt/fat32
+$ mkdir mnt/ext4
+$ sudo mount /dev/sdb6 mnt/fat32
+$ sudo mount /dev/sdb7 mnt/ext4
+```
+
+
