@@ -1,5 +1,5 @@
 ### RaspberryPi kernel
-A Rpi kernel for the embedded systems course done with a Ubuntu 20.04 LTS virtual machine.
+A Rpi kernel for the embedded systems course done with a Ubuntu 20.04 LTS virtual machine and a Raspberry Pi 4B.
 
 **Install required dependencies**
 
