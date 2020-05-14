@@ -2,11 +2,13 @@
 A Rpi kernel for the embedded systems course.
 
 ### Install required dependencies
+
 Install dependencies needed to build the sources for cross-compilation
 ```sh
 $ sudo apt install git bc bison flex libssl-dev make libc6-dev libncurses5-dev
 ```
 ### Install toolchain
+
 Install toolchain to the home folder :
 ```sh
 $ git clone https://github.com/raspberrypi/tools ~/tools
@@ -19,11 +21,13 @@ $ source ~/.bashrc
 ```
 
 ### Get sources
+
 ```sh
 $ git clone --depth=1 https://github.com/raspberrypi/linux
 ```
 
 ### Build sources
+
 ```sh
 $ cd linux
 ```
