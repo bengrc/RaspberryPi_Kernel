@@ -7,9 +7,9 @@ Install dependencies needed to build the sources for cross-compilation
 ```sh
 $ sudo apt install git bc bison flex libssl-dev make libc6-dev libncurses5-dev
 ```
-#### **Install toolchain**
+**Install toolchain**
 
-Install toolchain to the home folder :
+- Install toolchain to the home folder :
 ```sh
 $ git clone https://github.com/raspberrypi/tools ~/tools
 ```
