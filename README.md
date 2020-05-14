@@ -3,7 +3,7 @@ A Rpi kernel for the embedded systems course done with a Ubuntu 20.04 LTS virtua
 
 #### **Install required dependencies**
 
-Install dependencies needed to build the sources for cross-compilation
+  - Install dependencies needed to build the sources for cross-compilation
 ```sh
 $ sudo apt install git bc bison flex libssl-dev make libc6-dev libncurses5-dev
 ```
