@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/gp8psk-fe.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/dvb-frontends/gp8psk-fe.ko drivers/media/dvb-frontends/gp8psk-fe.o drivers/media/dvb-frontends/gp8psk-fe.mod.o ;  true

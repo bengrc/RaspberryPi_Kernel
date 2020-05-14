@@ -1,0 +1,1 @@
+cmd_sound/core/seq/snd-seq-dummy.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/core/seq/snd-seq-dummy.ko sound/core/seq/snd-seq-dummy.o sound/core/seq/snd-seq-dummy.mod.o ;  true

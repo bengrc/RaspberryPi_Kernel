@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-wm-adsp.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/soc/codecs/snd-soc-wm-adsp.ko sound/soc/codecs/snd-soc-wm-adsp.o sound/soc/codecs/snd-soc-wm-adsp.mod.o ;  true

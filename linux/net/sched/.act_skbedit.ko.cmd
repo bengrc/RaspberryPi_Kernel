@@ -1,0 +1,1 @@
+cmd_net/sched/act_skbedit.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/sched/act_skbedit.ko net/sched/act_skbedit.o net/sched/act_skbedit.mod.o ;  true

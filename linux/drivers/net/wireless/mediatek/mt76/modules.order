@@ -1,0 +1,5 @@
+kernel/drivers/net/wireless/mediatek/mt76/mt76.ko
+kernel/drivers/net/wireless/mediatek/mt76/mt76-usb.ko
+kernel/drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0.ko
+kernel/drivers/net/wireless/mediatek/mt76/mt76x2-common.ko
+kernel/drivers/net/wireless/mediatek/mt76/mt76x2u.ko

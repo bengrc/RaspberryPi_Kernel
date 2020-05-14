@@ -1,0 +1,1 @@
+cmd_fs/nfs/blocklayout/blocklayoutdriver.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o fs/nfs/blocklayout/blocklayoutdriver.ko fs/nfs/blocklayout/blocklayoutdriver.o fs/nfs/blocklayout/blocklayoutdriver.mod.o ;  true

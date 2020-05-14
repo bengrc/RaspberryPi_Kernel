@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/sht3x.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hwmon/sht3x.ko drivers/hwmon/sht3x.o drivers/hwmon/sht3x.mod.o ;  true

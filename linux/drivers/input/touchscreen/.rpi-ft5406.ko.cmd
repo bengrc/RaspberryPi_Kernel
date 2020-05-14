@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/rpi-ft5406.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/touchscreen/rpi-ft5406.ko drivers/input/touchscreen/rpi-ft5406.o drivers/input/touchscreen/rpi-ft5406.mod.o ;  true

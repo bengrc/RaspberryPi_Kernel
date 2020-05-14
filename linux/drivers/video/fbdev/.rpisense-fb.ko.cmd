@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/rpisense-fb.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/video/fbdev/rpisense-fb.ko drivers/video/fbdev/rpisense-fb.o drivers/video/fbdev/rpisense-fb.mod.o ;  true

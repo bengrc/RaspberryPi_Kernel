@@ -1,0 +1,1 @@
+cmd_drivers/net/netconsole.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/netconsole.ko drivers/net/netconsole.o drivers/net/netconsole.mod.o ;  true

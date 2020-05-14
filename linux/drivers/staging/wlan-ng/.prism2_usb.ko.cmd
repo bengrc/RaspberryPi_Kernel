@@ -1,0 +1,1 @@
+cmd_drivers/staging/wlan-ng/prism2_usb.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/staging/wlan-ng/prism2_usb.ko drivers/staging/wlan-ng/prism2_usb.o drivers/staging/wlan-ng/prism2_usb.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/pinctrl-mcp23s08.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/pinctrl/pinctrl-mcp23s08.ko drivers/pinctrl/pinctrl-mcp23s08.o drivers/pinctrl/pinctrl-mcp23s08.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/tua9001.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/tuners/tua9001.ko drivers/media/tuners/tua9001.o drivers/media/tuners/tua9001.mod.o ;  true

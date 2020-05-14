@@ -1,0 +1,2 @@
+kernel/drivers/thermal/broadcom/bcm2835_thermal.ko
+kernel/drivers/thermal/broadcom/brcmstb_thermal.ko

@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/io_ti.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/serial/io_ti.ko drivers/usb/serial/io_ti.o drivers/usb/serial/io_ti.mod.o ;  true

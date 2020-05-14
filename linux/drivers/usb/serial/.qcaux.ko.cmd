@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/qcaux.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/serial/qcaux.ko drivers/usb/serial/qcaux.o drivers/usb/serial/qcaux.mod.o ;  true

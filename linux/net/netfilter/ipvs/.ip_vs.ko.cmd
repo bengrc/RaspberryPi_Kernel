@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipvs/ip_vs.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/netfilter/ipvs/ip_vs.ko net/netfilter/ipvs/ip_vs.o net/netfilter/ipvs/ip_vs.mod.o ;  true

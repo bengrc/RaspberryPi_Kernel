@@ -1,0 +1,1 @@
+cmd_drivers/iio/chemical/bme680_core.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/iio/chemical/bme680_core.ko drivers/iio/chemical/bme680_core.o drivers/iio/chemical/bme680_core.mod.o ;  true

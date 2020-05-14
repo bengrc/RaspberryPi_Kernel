@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/lgs8gxx.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/dvb-frontends/lgs8gxx.ko drivers/media/dvb-frontends/lgs8gxx.o drivers/media/dvb-frontends/lgs8gxx.mod.o ;  true

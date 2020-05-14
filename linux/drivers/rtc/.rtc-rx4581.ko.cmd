@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-rx4581.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/rtc/rtc-rx4581.ko drivers/rtc/rtc-rx4581.o drivers/rtc/rtc-rx4581.mod.o ;  true

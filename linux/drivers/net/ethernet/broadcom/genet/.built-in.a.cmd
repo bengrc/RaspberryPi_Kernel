@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/broadcom/genet/built-in.a := rm -f drivers/net/ethernet/broadcom/genet/built-in.a; arm-linux-gnueabihf-ar rcSTPD drivers/net/ethernet/broadcom/genet/built-in.a drivers/net/ethernet/broadcom/genet/bcmgenet.o drivers/net/ethernet/broadcom/genet/bcmmii.o drivers/net/ethernet/broadcom/genet/bcmgenet_wol.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/veth.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/veth.ko drivers/net/veth.o drivers/net/veth.mod.o ;  true

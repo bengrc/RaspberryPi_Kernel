@@ -1,0 +1,1 @@
+cmd_drivers/iio/humidity/htu21.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/iio/humidity/htu21.ko drivers/iio/humidity/htu21.o drivers/iio/humidity/htu21.mod.o ;  true

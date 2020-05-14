@@ -1,0 +1,1 @@
+cmd_drivers/staging/vc04_services/vchiq-mmal/bcm2835-mmal-vchiq.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/staging/vc04_services/vchiq-mmal/bcm2835-mmal-vchiq.ko drivers/staging/vc04_services/vchiq-mmal/bcm2835-mmal-vchiq.o drivers/staging/vc04_services/vchiq-mmal/bcm2835-mmal-vchiq.mod.o ;  true

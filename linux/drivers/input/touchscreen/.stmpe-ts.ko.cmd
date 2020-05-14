@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/stmpe-ts.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/touchscreen/stmpe-ts.ko drivers/input/touchscreen/stmpe-ts.o drivers/input/touchscreen/stmpe-ts.mod.o ;  true

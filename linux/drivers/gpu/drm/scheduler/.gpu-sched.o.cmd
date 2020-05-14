@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/scheduler/gpu-sched.o := arm-linux-gnueabihf-ld  -EL    -r -o drivers/gpu/drm/scheduler/gpu-sched.o drivers/gpu/drm/scheduler/gpu_scheduler.o drivers/gpu/drm/scheduler/sched_fence.o 

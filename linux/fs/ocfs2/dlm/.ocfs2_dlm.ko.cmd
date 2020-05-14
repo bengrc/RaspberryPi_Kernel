@@ -1,0 +1,1 @@
+cmd_fs/ocfs2/dlm/ocfs2_dlm.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o fs/ocfs2/dlm/ocfs2_dlm.ko fs/ocfs2/dlm/ocfs2_dlm.o fs/ocfs2/dlm/ocfs2_dlm.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-i-sabre-q2m.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/soc/bcm/snd-soc-i-sabre-q2m.ko sound/soc/bcm/snd-soc-i-sabre-q2m.o sound/soc/bcm/snd-soc-i-sabre-q2m.mod.o ;  true

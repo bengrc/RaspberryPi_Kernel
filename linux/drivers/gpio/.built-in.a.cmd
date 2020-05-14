@@ -1,0 +1,1 @@
+cmd_drivers/gpio/built-in.a := rm -f drivers/gpio/built-in.a; arm-linux-gnueabihf-ar rcSTPD drivers/gpio/built-in.a drivers/gpio/devres.o drivers/gpio/gpiolib.o drivers/gpio/gpiolib-legacy.o drivers/gpio/gpiolib-devprop.o drivers/gpio/gpiolib-of.o drivers/gpio/gpiolib-sysfs.o drivers/gpio/gpio-raspberrypi-exp.o drivers/gpio/gpio-bcm-virt.o drivers/gpio/gpio-stmpe.o

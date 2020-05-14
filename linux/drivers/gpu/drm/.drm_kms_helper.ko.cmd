@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/drm_kms_helper.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/gpu/drm/drm_kms_helper.ko drivers/gpu/drm/drm_kms_helper.o drivers/gpu/drm/drm_kms_helper.mod.o ;  true

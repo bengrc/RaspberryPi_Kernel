@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-speedlink.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/hid-speedlink.ko drivers/hid/hid-speedlink.o drivers/hid/hid-speedlink.mod.o ;  true

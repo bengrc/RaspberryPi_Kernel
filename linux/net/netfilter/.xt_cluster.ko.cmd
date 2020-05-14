@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_cluster.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/netfilter/xt_cluster.ko net/netfilter/xt_cluster.o net/netfilter/xt_cluster.mod.o ;  true

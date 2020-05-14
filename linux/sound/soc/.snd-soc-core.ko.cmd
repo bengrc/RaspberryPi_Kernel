@@ -1,0 +1,1 @@
+cmd_sound/soc/snd-soc-core.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/soc/snd-soc-core.ko sound/soc/snd-soc-core.o sound/soc/snd-soc-core.mod.o ;  true

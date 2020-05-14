@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-ds1307.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/rtc/rtc-ds1307.ko drivers/rtc/rtc-ds1307.o drivers/rtc/rtc-ds1307.mod.o ;  true

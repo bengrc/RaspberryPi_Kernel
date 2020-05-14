@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/irs1125.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/i2c/irs1125.ko drivers/media/i2c/irs1125.o drivers/media/i2c/irs1125.mod.o ;  true

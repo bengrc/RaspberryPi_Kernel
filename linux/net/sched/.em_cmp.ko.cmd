@@ -1,0 +1,1 @@
+cmd_net/sched/em_cmp.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/sched/em_cmp.ko net/sched/em_cmp.o net/sched/em_cmp.mod.o ;  true

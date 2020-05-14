@@ -1,0 +1,11 @@
+kernel/drivers/media/common/b2c2/b2c2-flexcop.ko
+kernel/drivers/media/common/siano/smsmdtv.ko
+kernel/drivers/media/common/siano/smsdvb.ko
+kernel/drivers/media/common/videobuf2/videobuf2-common.ko
+kernel/drivers/media/common/videobuf2/videobuf2-v4l2.ko
+kernel/drivers/media/common/videobuf2/videobuf2-memops.ko
+kernel/drivers/media/common/videobuf2/videobuf2-vmalloc.ko
+kernel/drivers/media/common/videobuf2/videobuf2-dma-contig.ko
+kernel/drivers/media/common/cx2341x.ko
+kernel/drivers/media/common/tveeprom.ko
+kernel/drivers/media/common/cypress_firmware.ko

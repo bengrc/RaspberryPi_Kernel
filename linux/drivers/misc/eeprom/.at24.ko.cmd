@@ -1,0 +1,1 @@
+cmd_drivers/misc/eeprom/at24.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/misc/eeprom/at24.ko drivers/misc/eeprom/at24.o drivers/misc/eeprom/at24.mod.o ;  true

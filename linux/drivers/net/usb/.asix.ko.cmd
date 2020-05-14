@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/asix.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/usb/asix.ko drivers/net/usb/asix.o drivers/net/usb/asix.mod.o ;  true

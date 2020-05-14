@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/xsens_mt.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/serial/xsens_mt.ko drivers/usb/serial/xsens_mt.o drivers/usb/serial/xsens_mt.mod.o ;  true

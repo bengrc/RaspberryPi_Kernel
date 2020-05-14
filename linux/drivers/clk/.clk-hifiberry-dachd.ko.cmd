@@ -1,0 +1,1 @@
+cmd_drivers/clk/clk-hifiberry-dachd.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/clk/clk-hifiberry-dachd.ko drivers/clk/clk-hifiberry-dachd.o drivers/clk/clk-hifiberry-dachd.mod.o ;  true

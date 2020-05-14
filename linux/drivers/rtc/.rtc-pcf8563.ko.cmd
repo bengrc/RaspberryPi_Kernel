@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-pcf8563.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/rtc/rtc-pcf8563.ko drivers/rtc/rtc-pcf8563.o drivers/rtc/rtc-pcf8563.mod.o ;  true

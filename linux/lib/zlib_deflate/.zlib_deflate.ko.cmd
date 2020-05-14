@@ -1,0 +1,1 @@
+cmd_lib/zlib_deflate/zlib_deflate.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o lib/zlib_deflate/zlib_deflate.ko lib/zlib_deflate/zlib_deflate.o lib/zlib_deflate/zlib_deflate.mod.o ;  true

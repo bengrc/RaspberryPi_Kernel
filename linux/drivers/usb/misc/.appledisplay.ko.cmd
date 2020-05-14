@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/appledisplay.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/misc/appledisplay.ko drivers/usb/misc/appledisplay.o drivers/usb/misc/appledisplay.mod.o ;  true

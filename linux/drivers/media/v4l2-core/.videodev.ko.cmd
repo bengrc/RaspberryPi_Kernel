@@ -1,0 +1,1 @@
+cmd_drivers/media/v4l2-core/videodev.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/v4l2-core/videodev.ko drivers/media/v4l2-core/videodev.o drivers/media/v4l2-core/videodev.mod.o ;  true

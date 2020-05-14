@@ -1,0 +1,1 @@
+cmd_drivers/w1/slaves/w1_smem.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/w1/slaves/w1_smem.ko drivers/w1/slaves/w1_smem.o drivers/w1/slaves/w1_smem.mod.o ;  true

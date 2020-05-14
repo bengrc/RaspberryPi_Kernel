@@ -1,0 +1,1 @@
+cmd_net/sched/act_ipt.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/sched/act_ipt.ko net/sched/act_ipt.o net/sched/act_ipt.mod.o ;  true

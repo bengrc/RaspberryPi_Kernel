@@ -1,0 +1,1 @@
+cmd_drivers/uio/uio.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/uio/uio.ko drivers/uio/uio.o drivers/uio/uio.mod.o ;  true

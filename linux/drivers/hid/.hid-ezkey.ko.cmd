@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-ezkey.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/hid-ezkey.ko drivers/hid/hid-ezkey.o drivers/hid/hid-ezkey.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_net/batman-adv/batman-adv.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/batman-adv/batman-adv.ko net/batman-adv/batman-adv.o net/batman-adv/batman-adv.mod.o ;  true

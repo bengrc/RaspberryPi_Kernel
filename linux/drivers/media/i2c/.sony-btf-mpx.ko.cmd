@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/sony-btf-mpx.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/i2c/sony-btf-mpx.ko drivers/media/i2c/sony-btf-mpx.o drivers/media/i2c/sony-btf-mpx.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/tef6862.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/radio/tef6862.ko drivers/media/radio/tef6862.o drivers/media/radio/tef6862.mod.o ;  true

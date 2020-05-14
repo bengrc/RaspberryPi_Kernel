@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-roccat-kovaplus.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/hid-roccat-kovaplus.ko drivers/hid/hid-roccat-kovaplus.o drivers/hid/hid-roccat-kovaplus.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_net/sched/sch_ingress.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/sched/sch_ingress.ko net/sched/sch_ingress.o net/sched/sch_ingress.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/pps/clients/pps-gpio.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/pps/clients/pps-gpio.ko drivers/pps/clients/pps-gpio.o drivers/pps/clients/pps-gpio.mod.o ;  true

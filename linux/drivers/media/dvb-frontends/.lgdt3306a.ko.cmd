@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/lgdt3306a.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/dvb-frontends/lgdt3306a.ko drivers/media/dvb-frontends/lgdt3306a.o drivers/media/dvb-frontends/lgdt3306a.mod.o ;  true

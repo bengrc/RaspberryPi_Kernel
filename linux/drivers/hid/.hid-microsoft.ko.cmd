@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-microsoft.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/hid-microsoft.ko drivers/hid/hid-microsoft.o drivers/hid/hid-microsoft.mod.o ;  true

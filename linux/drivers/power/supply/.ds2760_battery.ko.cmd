@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/ds2760_battery.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/power/supply/ds2760_battery.ko drivers/power/supply/ds2760_battery.o drivers/power/supply/ds2760_battery.mod.o ;  true

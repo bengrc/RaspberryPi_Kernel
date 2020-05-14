@@ -1,0 +1,1 @@
+cmd_sound/usb/snd-usbmidi-lib.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/usb/snd-usbmidi-lib.ko sound/usb/snd-usbmidi-lib.o sound/usb/snd-usbmidi-lib.mod.o ;  true

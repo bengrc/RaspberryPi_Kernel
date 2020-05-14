@@ -1,0 +1,1 @@
+cmd_drivers/media/common/siano/smsmdtv.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/common/siano/smsmdtv.ko drivers/media/common/siano/smsmdtv.o drivers/media/common/siano/smsmdtv.mod.o ;  true

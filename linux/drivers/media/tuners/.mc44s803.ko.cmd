@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/mc44s803.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/tuners/mc44s803.ko drivers/media/tuners/mc44s803.o drivers/media/tuners/mc44s803.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_net/netrom/netrom.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/netrom/netrom.ko net/netrom/netrom.o net/netrom/netrom.mod.o ;  true

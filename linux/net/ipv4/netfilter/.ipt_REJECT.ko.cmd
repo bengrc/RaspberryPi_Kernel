@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/ipt_REJECT.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/ipv4/netfilter/ipt_REJECT.ko net/ipv4/netfilter/ipt_REJECT.o net/ipv4/netfilter/ipt_REJECT.mod.o ;  true

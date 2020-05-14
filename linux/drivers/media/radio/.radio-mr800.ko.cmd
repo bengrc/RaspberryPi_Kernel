@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/radio-mr800.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/radio/radio-mr800.ko drivers/media/radio/radio-mr800.o drivers/media/radio/radio-mr800.mod.o ;  true

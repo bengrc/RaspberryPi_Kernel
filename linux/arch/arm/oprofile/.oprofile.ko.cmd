@@ -1,0 +1,1 @@
+cmd_arch/arm/oprofile/oprofile.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o arch/arm/oprofile/oprofile.ko arch/arm/oprofile/oprofile.o arch/arm/oprofile/oprofile.mod.o ;  true

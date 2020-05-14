@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-thin-pool.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/md/dm-thin-pool.ko drivers/md/dm-thin-pool.o drivers/md/dm-thin-pool.mod.o ;  true

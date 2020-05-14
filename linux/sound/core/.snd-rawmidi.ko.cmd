@@ -1,0 +1,1 @@
+cmd_sound/core/snd-rawmidi.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/core/snd-rawmidi.ko sound/core/snd-rawmidi.o sound/core/snd-rawmidi.mod.o ;  true

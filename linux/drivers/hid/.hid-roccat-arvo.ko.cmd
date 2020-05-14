@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-roccat-arvo.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/hid-roccat-arvo.ko drivers/hid/hid-roccat-arvo.o drivers/hid/hid-roccat-arvo.mod.o ;  true

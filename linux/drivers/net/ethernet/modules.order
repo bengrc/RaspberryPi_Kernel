@@ -1,0 +1,5 @@
+kernel/drivers/net/ethernet/microchip/enc28j60.ko
+kernel/drivers/net/ethernet/qualcomm/qca_7k_common.ko
+kernel/drivers/net/ethernet/qualcomm/qcaspi.ko
+kernel/drivers/net/ethernet/wiznet/w5100.ko
+kernel/drivers/net/ethernet/wiznet/w5100-spi.ko

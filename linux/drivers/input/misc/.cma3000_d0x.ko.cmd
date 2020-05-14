@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/cma3000_d0x.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/misc/cma3000_d0x.ko drivers/input/misc/cma3000_d0x.o drivers/input/misc/cma3000_d0x.mod.o ;  true

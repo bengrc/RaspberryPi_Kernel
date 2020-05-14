@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/libcomposite.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/gadget/libcomposite.ko drivers/usb/gadget/libcomposite.o drivers/usb/gadget/libcomposite.mod.o ;  true

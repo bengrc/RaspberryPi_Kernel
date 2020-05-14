@@ -1,0 +1,2 @@
+kernel/drivers/auxdisplay/charlcd.ko
+kernel/drivers/auxdisplay/hd44780.ko

@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_connlimit.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/netfilter/nft_connlimit.ko net/netfilter/nft_connlimit.o net/netfilter/nft_connlimit.mod.o ;  true

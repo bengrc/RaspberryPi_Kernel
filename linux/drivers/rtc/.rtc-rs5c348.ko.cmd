@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-rs5c348.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/rtc/rtc-rs5c348.ko drivers/rtc/rtc-rs5c348.o drivers/rtc/rtc-rs5c348.mod.o ;  true

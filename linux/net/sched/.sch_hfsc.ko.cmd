@@ -1,0 +1,1 @@
+cmd_net/sched/sch_hfsc.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/sched/sch_hfsc.ko net/sched/sch_hfsc.o net/sched/sch_hfsc.mod.o ;  true

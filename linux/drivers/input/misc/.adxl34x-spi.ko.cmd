@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/adxl34x-spi.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/misc/adxl34x-spi.ko drivers/input/misc/adxl34x-spi.o drivers/input/misc/adxl34x-spi.mod.o ;  true

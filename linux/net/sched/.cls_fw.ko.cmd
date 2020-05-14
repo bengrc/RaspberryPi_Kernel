@@ -1,0 +1,1 @@
+cmd_net/sched/cls_fw.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/sched/cls_fw.ko net/sched/cls_fw.o net/sched/cls_fw.mod.o ;  true

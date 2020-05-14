@@ -1,0 +1,1 @@
+cmd_drivers/char/broadcom/rpivid-mem.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/char/broadcom/rpivid-mem.ko drivers/char/broadcom/rpivid-mem.o drivers/char/broadcom/rpivid-mem.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/mtd/ofpart.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/mtd/ofpart.ko drivers/mtd/ofpart.o drivers/mtd/ofpart.mod.o ;  true

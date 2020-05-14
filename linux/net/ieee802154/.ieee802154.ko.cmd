@@ -1,0 +1,1 @@
+cmd_net/ieee802154/ieee802154.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/ieee802154/ieee802154.ko net/ieee802154/ieee802154.o net/ieee802154/ieee802154.mod.o ;  true

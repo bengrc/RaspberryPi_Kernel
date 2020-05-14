@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-magicmouse.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/hid-magicmouse.ko drivers/hid/hid-magicmouse.o drivers/hid/hid-magicmouse.mod.o ;  true

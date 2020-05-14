@@ -1,0 +1,1 @@
+cmd_drivers/scsi/osst.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/scsi/osst.ko drivers/scsi/osst.o drivers/scsi/osst.mod.o ;  true

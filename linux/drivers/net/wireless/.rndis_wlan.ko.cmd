@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rndis_wlan.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/wireless/rndis_wlan.ko drivers/net/wireless/rndis_wlan.o drivers/net/wireless/rndis_wlan.mod.o ;  true

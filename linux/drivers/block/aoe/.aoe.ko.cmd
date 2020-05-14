@@ -1,0 +1,1 @@
+cmd_drivers/block/aoe/aoe.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/block/aoe/aoe.ko drivers/block/aoe/aoe.o drivers/block/aoe/aoe.mod.o ;  true

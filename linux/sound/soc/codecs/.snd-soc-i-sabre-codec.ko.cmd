@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-i-sabre-codec.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/soc/codecs/snd-soc-i-sabre-codec.ko sound/soc/codecs/snd-soc-i-sabre-codec.o sound/soc/codecs/snd-soc-i-sabre-codec.mod.o ;  true

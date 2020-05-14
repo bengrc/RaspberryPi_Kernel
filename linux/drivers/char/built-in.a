@@ -1,0 +1,29 @@
+!<thin>
+//                                              234       `
+mem.o/
+random.o/
+ttyprintk.o/
+misc.o/
+raw.o/
+hw_random/core.o/
+hw_random/bcm2835-rng.o/
+hw_random/iproc-rng200.o/
+broadcom/vc_mem.o/
+broadcom/vcio.o/
+broadcom/vc_sm/vmcs_sm.o/
+broadcom/vc_sm/vc_vchi_sm.o/
+broadcom/bcm2835-gpiomem.o/
+
+/0              0           0     0     644     11380     `
+/7              0           0     0     644     77772     `
+/17             0           0     0     644     7008      `
+/30             0           0     0     644     9264      `
+/38             0           0     0     644     9816      `
+/45             0           0     0     644     18852     `
+/63             0           0     0     644     7740      `
+/88             0           0     0     644     8184      `
+/114            0           0     0     644     12376     `
+/133            0           0     0     644     7420      `
+/150            0           0     0     644     49812     `
+/176            0           0     0     644     9384      `
+/205            0           0     0     644     8676      `

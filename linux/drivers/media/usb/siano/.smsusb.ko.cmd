@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/siano/smsusb.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/usb/siano/smsusb.ko drivers/media/usb/siano/smsusb.o drivers/media/usb/siano/smsusb.mod.o ;  true

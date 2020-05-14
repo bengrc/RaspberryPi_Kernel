@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-umt-010.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/usb/dvb-usb/dvb-usb-umt-010.ko drivers/media/usb/dvb-usb/dvb-usb-umt-010.o drivers/media/usb/dvb-usb/dvb-usb-umt-010.mod.o ;  true

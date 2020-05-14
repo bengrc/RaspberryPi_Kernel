@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/uinput.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/misc/uinput.ko drivers/input/misc/uinput.o drivers/input/misc/uinput.mod.o ;  true

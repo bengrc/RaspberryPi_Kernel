@@ -1,0 +1,1 @@
+cmd_drivers/connector/cn.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/connector/cn.ko drivers/connector/cn.o drivers/connector/cn.mod.o ;  true

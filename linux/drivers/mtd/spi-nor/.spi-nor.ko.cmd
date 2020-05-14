@@ -1,0 +1,1 @@
+cmd_drivers/mtd/spi-nor/spi-nor.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/mtd/spi-nor/spi-nor.ko drivers/mtd/spi-nor/spi-nor.o drivers/mtd/spi-nor/spi-nor.mod.o ;  true

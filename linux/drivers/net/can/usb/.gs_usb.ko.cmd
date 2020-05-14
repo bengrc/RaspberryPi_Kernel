@@ -1,0 +1,1 @@
+cmd_drivers/net/can/usb/gs_usb.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/can/usb/gs_usb.ko drivers/net/can/usb/gs_usb.o drivers/net/can/usb/gs_usb.mod.o ;  true

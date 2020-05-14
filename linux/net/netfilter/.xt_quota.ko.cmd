@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_quota.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/netfilter/xt_quota.ko net/netfilter/xt_quota.o net/netfilter/xt_quota.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/tda827x.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/tuners/tda827x.ko drivers/media/tuners/tda827x.o drivers/media/tuners/tda827x.mod.o ;  true

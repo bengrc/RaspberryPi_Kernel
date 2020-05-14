@@ -1,0 +1,1 @@
+cmd_drivers/net/hamradio/yam.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/hamradio/yam.ko drivers/net/hamradio/yam.o drivers/net/hamradio/yam.mod.o ;  true

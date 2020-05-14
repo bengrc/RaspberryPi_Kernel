@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/ir-usb.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/serial/ir-usb.ko drivers/usb/serial/ir-usb.o drivers/usb/serial/ir-usb.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/spi/cxd2880-spi.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/spi/cxd2880-spi.ko drivers/media/spi/cxd2880-spi.o drivers/media/spi/cxd2880-spi.mod.o ;  true

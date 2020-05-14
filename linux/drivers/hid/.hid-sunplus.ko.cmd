@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-sunplus.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/hid-sunplus.ko drivers/hid/hid-sunplus.o drivers/hid/hid-sunplus.mod.o ;  true

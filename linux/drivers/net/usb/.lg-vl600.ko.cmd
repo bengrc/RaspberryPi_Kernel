@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/lg-vl600.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/usb/lg-vl600.ko drivers/net/usb/lg-vl600.o drivers/net/usb/lg-vl600.mod.o ;  true

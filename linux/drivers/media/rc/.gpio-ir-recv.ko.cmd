@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/gpio-ir-recv.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/gpio-ir-recv.ko drivers/media/rc/gpio-ir-recv.o drivers/media/rc/gpio-ir-recv.mod.o ;  true

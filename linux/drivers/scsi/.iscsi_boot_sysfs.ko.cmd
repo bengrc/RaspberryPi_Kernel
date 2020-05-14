@@ -1,0 +1,1 @@
+cmd_drivers/scsi/iscsi_boot_sysfs.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/scsi/iscsi_boot_sysfs.ko drivers/scsi/iscsi_boot_sysfs.o drivers/scsi/iscsi_boot_sysfs.mod.o ;  true

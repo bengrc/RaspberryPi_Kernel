@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_tunnel.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/netfilter/nft_tunnel.ko net/netfilter/nft_tunnel.o net/netfilter/nft_tunnel.mod.o ;  true

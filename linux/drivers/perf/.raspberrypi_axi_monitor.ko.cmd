@@ -1,0 +1,1 @@
+cmd_drivers/perf/raspberrypi_axi_monitor.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/perf/raspberrypi_axi_monitor.ko drivers/perf/raspberrypi_axi_monitor.o drivers/perf/raspberrypi_axi_monitor.mod.o ;  true

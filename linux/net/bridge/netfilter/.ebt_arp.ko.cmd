@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebt_arp.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/bridge/netfilter/ebt_arp.ko net/bridge/netfilter/ebt_arp.o net/bridge/netfilter/ebt_arp.mod.o ;  true

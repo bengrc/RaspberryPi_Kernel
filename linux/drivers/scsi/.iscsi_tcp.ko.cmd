@@ -1,0 +1,1 @@
+cmd_drivers/scsi/iscsi_tcp.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/scsi/iscsi_tcp.ko drivers/scsi/iscsi_tcp.o drivers/scsi/iscsi_tcp.mod.o ;  true

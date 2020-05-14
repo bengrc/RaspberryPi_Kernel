@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/tinydrm/st7586.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/gpu/drm/tinydrm/st7586.ko drivers/gpu/drm/tinydrm/st7586.o drivers/gpu/drm/tinydrm/st7586.mod.o ;  true

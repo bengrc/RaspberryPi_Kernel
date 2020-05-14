@@ -1,0 +1,1 @@
+cmd_net/can/can-raw.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/can/can-raw.ko net/can/can-raw.o net/can/can-raw.mod.o ;  true

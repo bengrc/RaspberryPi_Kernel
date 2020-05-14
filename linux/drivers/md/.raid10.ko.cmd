@@ -1,0 +1,1 @@
+cmd_drivers/md/raid10.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/md/raid10.ko drivers/md/raid10.o drivers/md/raid10.mod.o ;  true

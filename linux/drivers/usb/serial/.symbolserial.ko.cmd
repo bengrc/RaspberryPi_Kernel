@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/symbolserial.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/serial/symbolserial.ko drivers/usb/serial/symbolserial.o drivers/usb/serial/symbolserial.mod.o ;  true

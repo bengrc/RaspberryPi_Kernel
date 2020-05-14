@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/pwm-ir-tx.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/pwm-ir-tx.ko drivers/media/rc/pwm-ir-tx.o drivers/media/rc/pwm-ir-tx.mod.o ;  true

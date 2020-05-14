@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebtable_filter.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/bridge/netfilter/ebtable_filter.ko net/bridge/netfilter/ebtable_filter.o net/bridge/netfilter/ebtable_filter.mod.o ;  true

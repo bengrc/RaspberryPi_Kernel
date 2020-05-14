@@ -1,0 +1,1 @@
+cmd_drivers/clk/clk-allo-dac.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/clk/clk-allo-dac.ko drivers/clk/clk-allo-dac.o drivers/clk/clk-allo-dac.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/i2c/muxes/i2c-mux-gpmux.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/i2c/muxes/i2c-mux-gpmux.ko drivers/i2c/muxes/i2c-mux-gpmux.o drivers/i2c/muxes/i2c-mux-gpmux.mod.o ;  true

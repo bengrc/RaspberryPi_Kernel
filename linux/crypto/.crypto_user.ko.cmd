@@ -1,0 +1,1 @@
+cmd_crypto/crypto_user.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o crypto/crypto_user.ko crypto/crypto_user.o crypto/crypto_user.mod.o ;  true

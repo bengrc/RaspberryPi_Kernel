@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_redir.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/netfilter/nft_redir.ko net/netfilter/nft_redir.o net/netfilter/nft_redir.mod.o ;  true

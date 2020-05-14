@@ -1,0 +1,1 @@
+cmd_net/can/can-bcm.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/can/can-bcm.ko net/can/can-bcm.o net/can/can-bcm.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/kobil_sct.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/serial/kobil_sct.ko drivers/usb/serial/kobil_sct.o drivers/usb/serial/kobil_sct.mod.o ;  true

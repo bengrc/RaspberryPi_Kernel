@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/tda10048.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/dvb-frontends/tda10048.ko drivers/media/dvb-frontends/tda10048.o drivers/media/dvb-frontends/tda10048.mod.o ;  true

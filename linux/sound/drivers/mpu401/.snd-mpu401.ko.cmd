@@ -1,0 +1,1 @@
+cmd_sound/drivers/mpu401/snd-mpu401.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/drivers/mpu401/snd-mpu401.ko sound/drivers/mpu401/snd-mpu401.o sound/drivers/mpu401/snd-mpu401.mod.o ;  true

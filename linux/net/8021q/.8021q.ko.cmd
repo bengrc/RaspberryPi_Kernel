@@ -1,0 +1,1 @@
+cmd_net/8021q/8021q.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/8021q/8021q.ko net/8021q/8021q.o net/8021q/8021q.mod.o ;  true

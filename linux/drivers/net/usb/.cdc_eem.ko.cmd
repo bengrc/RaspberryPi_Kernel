@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/cdc_eem.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/usb/cdc_eem.ko drivers/net/usb/cdc_eem.o drivers/net/usb/cdc_eem.mod.o ;  true

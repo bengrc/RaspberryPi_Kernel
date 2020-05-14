@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/as102/dvb-as102.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/usb/as102/dvb-as102.ko drivers/media/usb/as102/dvb-as102.o drivers/media/usb/as102/dvb-as102.mod.o ;  true

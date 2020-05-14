@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/radio-ma901.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/radio/radio-ma901.ko drivers/media/radio/radio-ma901.o drivers/media/radio/radio-ma901.mod.o ;  true

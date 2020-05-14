@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/raspberrypi-hwmon.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hwmon/raspberrypi-hwmon.ko drivers/hwmon/raspberrypi-hwmon.o drivers/hwmon/raspberrypi-hwmon.mod.o ;  true

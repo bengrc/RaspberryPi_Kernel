@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebtable_broute.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/bridge/netfilter/ebtable_broute.ko net/bridge/netfilter/ebtable_broute.o net/bridge/netfilter/ebtable_broute.mod.o ;  true

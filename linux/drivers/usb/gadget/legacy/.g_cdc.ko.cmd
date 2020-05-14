@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/g_cdc.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/gadget/legacy/g_cdc.ko drivers/usb/gadget/legacy/g_cdc.o drivers/usb/gadget/legacy/g_cdc.mod.o ;  true

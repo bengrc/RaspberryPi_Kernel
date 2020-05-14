@@ -1,0 +1,1 @@
+cmd_drivers/iio/buffer/industrialio-buffer-cb.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/iio/buffer/industrialio-buffer-cb.ko drivers/iio/buffer/industrialio-buffer-cb.o drivers/iio/buffer/industrialio-buffer-cb.mod.o ;  true

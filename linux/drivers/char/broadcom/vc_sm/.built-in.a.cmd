@@ -1,0 +1,1 @@
+cmd_drivers/char/broadcom/vc_sm/built-in.a := rm -f drivers/char/broadcom/vc_sm/built-in.a; arm-linux-gnueabihf-ar rcSTPD drivers/char/broadcom/vc_sm/built-in.a drivers/char/broadcom/vc_sm/vmcs_sm.o drivers/char/broadcom/vc_sm/vc_vchi_sm.o

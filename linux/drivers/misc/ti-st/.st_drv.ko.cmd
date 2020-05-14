@@ -1,0 +1,1 @@
+cmd_drivers/misc/ti-st/st_drv.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/misc/ti-st/st_drv.ko drivers/misc/ti-st/st_drv.o drivers/misc/ti-st/st_drv.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_sound/usb/hiface/snd-usb-hiface.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/usb/hiface/snd-usb-hiface.ko sound/usb/hiface/snd-usb-hiface.o sound/usb/hiface/snd-usb-hiface.mod.o ;  true

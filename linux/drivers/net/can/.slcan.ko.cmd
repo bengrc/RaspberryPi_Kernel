@@ -1,0 +1,1 @@
+cmd_drivers/net/can/slcan.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/can/slcan.ko drivers/net/can/slcan.o drivers/net/can/slcan.mod.o ;  true

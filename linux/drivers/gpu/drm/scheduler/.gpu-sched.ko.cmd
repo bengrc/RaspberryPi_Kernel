@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/scheduler/gpu-sched.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/gpu/drm/scheduler/gpu-sched.ko drivers/gpu/drm/scheduler/gpu-sched.o drivers/gpu/drm/scheduler/gpu-sched.mod.o ;  true

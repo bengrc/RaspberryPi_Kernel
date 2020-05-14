@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/ums-alauda.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/storage/ums-alauda.ko drivers/usb/storage/ums-alauda.o drivers/usb/storage/ums-alauda.mod.o ;  true

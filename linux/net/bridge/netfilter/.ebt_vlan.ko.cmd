@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebt_vlan.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/bridge/netfilter/ebt_vlan.ko net/bridge/netfilter/ebt_vlan.o net/bridge/netfilter/ebt_vlan.mod.o ;  true

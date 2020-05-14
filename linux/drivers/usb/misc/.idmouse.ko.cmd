@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/idmouse.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/misc/idmouse.ko drivers/usb/misc/idmouse.o drivers/usb/misc/idmouse.mod.o ;  true

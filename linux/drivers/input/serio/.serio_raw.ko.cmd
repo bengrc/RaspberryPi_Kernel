@@ -1,0 +1,1 @@
+cmd_drivers/input/serio/serio_raw.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/serio/serio_raw.ko drivers/input/serio/serio_raw.o drivers/input/serio/serio_raw.mod.o ;  true

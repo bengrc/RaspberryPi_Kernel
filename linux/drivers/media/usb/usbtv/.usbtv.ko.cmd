@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/usbtv/usbtv.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/usb/usbtv/usbtv.ko drivers/media/usb/usbtv/usbtv.o drivers/media/usb/usbtv/usbtv.mod.o ;  true

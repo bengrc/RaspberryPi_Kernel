@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/stv0367.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/dvb-frontends/stv0367.ko drivers/media/dvb-frontends/stv0367.o drivers/media/dvb-frontends/stv0367.mod.o ;  true

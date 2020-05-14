@@ -1,0 +1,4 @@
+kernel/drivers/gpio/gpio-arizona.ko
+kernel/drivers/gpio/gpio-mockup.ko
+kernel/drivers/gpio/gpio-pca953x.ko
+kernel/drivers/gpio/gpio-pcf857x.ko

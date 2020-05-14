@@ -1,0 +1,1 @@
+cmd_drivers/misc/eeprom/eeprom_93cx6.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/misc/eeprom/eeprom_93cx6.ko drivers/misc/eeprom/eeprom_93cx6.o drivers/misc/eeprom/eeprom_93cx6.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/kl5kusb105.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/serial/kl5kusb105.ko drivers/usb/serial/kl5kusb105.o drivers/usb/serial/kl5kusb105.mod.o ;  true

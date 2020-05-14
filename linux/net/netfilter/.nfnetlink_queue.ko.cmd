@@ -1,0 +1,1 @@
+cmd_net/netfilter/nfnetlink_queue.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/netfilter/nfnetlink_queue.ko net/netfilter/nfnetlink_queue.o net/netfilter/nfnetlink_queue.mod.o ;  true

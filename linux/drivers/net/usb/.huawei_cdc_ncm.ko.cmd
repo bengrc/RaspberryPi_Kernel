@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/huawei_cdc_ncm.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/usb/huawei_cdc_ncm.ko drivers/net/usb/huawei_cdc_ncm.o drivers/net/usb/huawei_cdc_ncm.mod.o ;  true

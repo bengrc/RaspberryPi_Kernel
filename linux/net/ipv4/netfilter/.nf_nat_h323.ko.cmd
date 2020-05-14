@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/nf_nat_h323.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/ipv4/netfilter/nf_nat_h323.ko net/ipv4/netfilter/nf_nat_h323.o net/ipv4/netfilter/nf_nat_h323.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/core/sysfillrect.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/video/fbdev/core/sysfillrect.ko drivers/video/fbdev/core/sysfillrect.o drivers/video/fbdev/core/sysfillrect.mod.o ;  true

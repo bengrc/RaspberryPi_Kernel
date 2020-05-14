@@ -1,0 +1,1 @@
+cmd_net/wireless/lib80211_crypt_tkip.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/wireless/lib80211_crypt_tkip.ko net/wireless/lib80211_crypt_tkip.o net/wireless/lib80211_crypt_tkip.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/dib3000mc.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/dvb-frontends/dib3000mc.ko drivers/media/dvb-frontends/dib3000mc.o drivers/media/dvb-frontends/dib3000mc.mod.o ;  true

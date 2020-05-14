@@ -1,0 +1,1 @@
+cmd_drivers/net/hamradio/baycom_ser_hdx.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/hamradio/baycom_ser_hdx.ko drivers/net/hamradio/baycom_ser_hdx.o drivers/net/hamradio/baycom_ser_hdx.mod.o ;  true

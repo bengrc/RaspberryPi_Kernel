@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-a4tech.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/hid-a4tech.ko drivers/hid/hid-a4tech.o drivers/hid/hid-a4tech.mod.o ;  true

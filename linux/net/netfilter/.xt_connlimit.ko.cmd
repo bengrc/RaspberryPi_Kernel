@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_connlimit.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/netfilter/xt_connlimit.ko net/netfilter/xt_connlimit.o net/netfilter/xt_connlimit.mod.o ;  true

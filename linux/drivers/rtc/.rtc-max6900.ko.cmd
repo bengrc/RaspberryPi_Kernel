@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-max6900.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/rtc/rtc-max6900.ko drivers/rtc/rtc-max6900.o drivers/rtc/rtc-max6900.mod.o ;  true

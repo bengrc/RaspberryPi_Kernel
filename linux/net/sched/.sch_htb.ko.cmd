@@ -1,0 +1,1 @@
+cmd_net/sched/sch_htb.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/sched/sch_htb.ko net/sched/sch_htb.o net/sched/sch_htb.mod.o ;  true

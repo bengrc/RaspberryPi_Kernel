@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_TCPOPTSTRIP.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/netfilter/xt_TCPOPTSTRIP.ko net/netfilter/xt_TCPOPTSTRIP.o net/netfilter/xt_TCPOPTSTRIP.mod.o ;  true

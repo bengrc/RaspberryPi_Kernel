@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/tw9903.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/i2c/tw9903.ko drivers/media/i2c/tw9903.o drivers/media/i2c/tw9903.mod.o ;  true
