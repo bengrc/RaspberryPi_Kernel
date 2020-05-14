@@ -64,4 +64,19 @@ $ sudo mount /dev/sdb6 mnt/fat32
 $ sudo mount /dev/sdb7 mnt/ext4
 ```
 
+Backup the old kernel:
+```sh
+$ sudo cp mnt/fat32/kernel.img mnt/fat32/kernel-backup.img
+```
 
+Copy the kernel and device tree blobs into the SD card:
+```sh
+$ sudo cp arch/arm/boot/zImage mnt/fat32/$KERNEL.img
+$ sudo cp arch/arm/boot/dts/*.dtb mnt/fat32/
+$ sudo cp arch/arm/boot/dts/overlays/*.dtb* mnt/fat32/overlays/
+$ sudo cp arch/arm/boot/dts/overlays/README mnt/fat32/overlays/
+$ sudo umount mnt/fat32
+$ sudo umount mnt/ext4
+```
+
+Now, you can enjoy your new kernel on the your RaspberryPi
