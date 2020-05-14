@@ -82,7 +82,9 @@ $ sudo umount mnt/ext4
 
 Now, you can plug the sd card into the Raspberry Pi and enjoy your new kernel :)
 
+
 Thanks to https://www.raspberrypi.org/documentation/linux/kernel/building.md for the help.
- 
+
+
 Benjamin Gracia
 (benjamin.gracia@epitech.eu)
