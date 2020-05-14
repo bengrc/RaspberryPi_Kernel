@@ -20,7 +20,7 @@ $ echo PATH=\$PATH:~/tools/arm-bcm2708/arm-linux-gnueabihf/bin >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
-#### Get sources
+#### **Get sources**
 
 ```sh
 $ git clone --depth=1 https://github.com/raspberrypi/linux
@@ -80,3 +80,5 @@ $ sudo umount mnt/ext4
 ```
 
 Now, you can enjoy your new kernel on the your RaspberryPi
+
+Helped by https://www.raspberrypi.org/documentation/linux/kernel/building.md 
