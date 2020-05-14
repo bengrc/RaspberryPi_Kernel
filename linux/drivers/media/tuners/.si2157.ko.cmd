@@ -1,1 +1,0 @@
-cmd_drivers/media/tuners/si2157.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/tuners/si2157.ko drivers/media/tuners/si2157.o drivers/media/tuners/si2157.mod.o ;  true

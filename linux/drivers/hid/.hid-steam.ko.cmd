@@ -1,1 +1,0 @@
-cmd_drivers/hid/hid-steam.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/hid-steam.ko drivers/hid/hid-steam.o drivers/hid/hid-steam.mod.o ;  true

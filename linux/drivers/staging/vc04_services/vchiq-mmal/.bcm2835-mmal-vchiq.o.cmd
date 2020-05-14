@@ -1,1 +1,0 @@
-cmd_drivers/staging/vc04_services/vchiq-mmal/bcm2835-mmal-vchiq.o := arm-linux-gnueabihf-ld  -EL    -r -o drivers/staging/vc04_services/vchiq-mmal/bcm2835-mmal-vchiq.o drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.o 

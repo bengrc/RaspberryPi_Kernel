@@ -1,1 +1,0 @@
-cmd_drivers/pwm/pwm-bcm2835.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/pwm/pwm-bcm2835.ko drivers/pwm/pwm-bcm2835.o drivers/pwm/pwm-bcm2835.mod.o ;  true

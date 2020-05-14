@@ -1,1 +1,0 @@
-cmd_drivers/leds/trigger/ledtrig-camera.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/leds/trigger/ledtrig-camera.ko drivers/leds/trigger/ledtrig-camera.o drivers/leds/trigger/ledtrig-camera.mod.o ;  true

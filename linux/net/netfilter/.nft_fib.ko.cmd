@@ -1,1 +1,0 @@
-cmd_net/netfilter/nft_fib.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/netfilter/nft_fib.ko net/netfilter/nft_fib.o net/netfilter/nft_fib.mod.o ;  true

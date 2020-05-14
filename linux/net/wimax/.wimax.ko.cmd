@@ -1,1 +1,0 @@
-cmd_net/wimax/wimax.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/wimax/wimax.ko net/wimax/wimax.o net/wimax/wimax.mod.o ;  true

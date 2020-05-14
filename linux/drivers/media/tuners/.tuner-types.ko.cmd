@@ -1,1 +1,0 @@
-cmd_drivers/media/tuners/tuner-types.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/tuners/tuner-types.ko drivers/media/tuners/tuner-types.o drivers/media/tuners/tuner-types.mod.o ;  true

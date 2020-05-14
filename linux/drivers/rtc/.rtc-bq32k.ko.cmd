@@ -1,1 +1,0 @@
-cmd_drivers/rtc/rtc-bq32k.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/rtc/rtc-bq32k.ko drivers/rtc/rtc-bq32k.o drivers/rtc/rtc-bq32k.mod.o ;  true

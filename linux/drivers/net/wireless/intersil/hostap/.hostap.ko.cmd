@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/intersil/hostap/hostap.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/wireless/intersil/hostap/hostap.ko drivers/net/wireless/intersil/hostap/hostap.o drivers/net/wireless/intersil/hostap/hostap.mod.o ;  true

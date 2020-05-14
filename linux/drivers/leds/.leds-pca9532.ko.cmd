@@ -1,1 +1,0 @@
-cmd_drivers/leds/leds-pca9532.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/leds/leds-pca9532.ko drivers/leds/leds-pca9532.o drivers/leds/leds-pca9532.mod.o ;  true

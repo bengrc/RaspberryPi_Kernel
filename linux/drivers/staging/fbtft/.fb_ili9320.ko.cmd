@@ -1,1 +1,0 @@
-cmd_drivers/staging/fbtft/fb_ili9320.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/staging/fbtft/fb_ili9320.ko drivers/staging/fbtft/fb_ili9320.o drivers/staging/fbtft/fb_ili9320.mod.o ;  true

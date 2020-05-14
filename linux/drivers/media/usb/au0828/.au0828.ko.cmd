@@ -1,1 +1,0 @@
-cmd_drivers/media/usb/au0828/au0828.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/usb/au0828/au0828.ko drivers/media/usb/au0828/au0828.o drivers/media/usb/au0828/au0828.mod.o ;  true

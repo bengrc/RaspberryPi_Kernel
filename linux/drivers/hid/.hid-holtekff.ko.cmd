@@ -1,1 +1,0 @@
-cmd_drivers/hid/hid-holtekff.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/hid-holtekff.ko drivers/hid/hid-holtekff.o drivers/hid/hid-holtekff.mod.o ;  true

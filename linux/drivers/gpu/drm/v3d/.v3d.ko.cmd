@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/v3d/v3d.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/gpu/drm/v3d/v3d.ko drivers/gpu/drm/v3d/v3d.o drivers/gpu/drm/v3d/v3d.mod.o ;  true

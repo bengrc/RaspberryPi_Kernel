@@ -1,1 +1,0 @@
-cmd_net/sched/act_pedit.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/sched/act_pedit.ko net/sched/act_pedit.o net/sched/act_pedit.mod.o ;  true

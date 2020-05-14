@@ -1,1 +1,0 @@
-cmd_sound/soc/bcm/snd-soc-audioinjector-pi-soundcard.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/soc/bcm/snd-soc-audioinjector-pi-soundcard.ko sound/soc/bcm/snd-soc-audioinjector-pi-soundcard.o sound/soc/bcm/snd-soc-audioinjector-pi-soundcard.mod.o ;  true

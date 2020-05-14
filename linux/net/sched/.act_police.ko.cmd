@@ -1,1 +1,0 @@
-cmd_net/sched/act_police.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/sched/act_police.ko net/sched/act_police.o net/sched/act_police.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/mn88443x.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/dvb-frontends/mn88443x.ko drivers/media/dvb-frontends/mn88443x.o drivers/media/dvb-frontends/mn88443x.mod.o ;  true

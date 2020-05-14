@@ -1,1 +1,0 @@
-cmd_drivers/net/ieee802154/cc2520.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/ieee802154/cc2520.ko drivers/net/ieee802154/cc2520.o drivers/net/ieee802154/cc2520.mod.o ;  true

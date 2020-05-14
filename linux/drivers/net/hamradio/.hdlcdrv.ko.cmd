@@ -1,1 +1,0 @@
-cmd_drivers/net/hamradio/hdlcdrv.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/hamradio/hdlcdrv.ko drivers/net/hamradio/hdlcdrv.o drivers/net/hamradio/hdlcdrv.mod.o ;  true

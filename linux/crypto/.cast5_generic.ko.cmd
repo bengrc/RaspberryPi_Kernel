@@ -1,1 +1,0 @@
-cmd_crypto/cast5_generic.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o crypto/cast5_generic.ko crypto/cast5_generic.o crypto/cast5_generic.mod.o ;  true

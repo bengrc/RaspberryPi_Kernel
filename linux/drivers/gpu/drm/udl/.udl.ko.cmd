@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/udl/udl.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/gpu/drm/udl/udl.ko drivers/gpu/drm/udl/udl.o drivers/gpu/drm/udl/udl.mod.o ;  true

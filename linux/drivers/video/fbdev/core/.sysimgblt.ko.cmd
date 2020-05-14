@@ -1,1 +1,0 @@
-cmd_drivers/video/fbdev/core/sysimgblt.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/video/fbdev/core/sysimgblt.ko drivers/video/fbdev/core/sysimgblt.o drivers/video/fbdev/core/sysimgblt.mod.o ;  true

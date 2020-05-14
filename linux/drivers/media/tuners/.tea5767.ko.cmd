@@ -1,1 +1,0 @@
-cmd_drivers/media/tuners/tea5767.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/tuners/tea5767.ko drivers/media/tuners/tea5767.o drivers/media/tuners/tea5767.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/staging/vc04_services/bcm2835-camera/bcm2835-v4l2.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/staging/vc04_services/bcm2835-camera/bcm2835-v4l2.ko drivers/staging/vc04_services/bcm2835-camera/bcm2835-v4l2.o drivers/staging/vc04_services/bcm2835-camera/bcm2835-v4l2.mod.o ;  true

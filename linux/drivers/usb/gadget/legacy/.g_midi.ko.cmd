@@ -1,1 +1,0 @@
-cmd_drivers/usb/gadget/legacy/g_midi.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/gadget/legacy/g_midi.ko drivers/usb/gadget/legacy/g_midi.o drivers/usb/gadget/legacy/g_midi.mod.o ;  true

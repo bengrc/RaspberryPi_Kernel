@@ -1,1 +1,0 @@
-cmd_drivers/char/broadcom/built-in.a := rm -f drivers/char/broadcom/built-in.a; arm-linux-gnueabihf-ar rcSTPD drivers/char/broadcom/built-in.a drivers/char/broadcom/vc_mem.o drivers/char/broadcom/vcio.o drivers/char/broadcom/vc_sm/built-in.a drivers/char/broadcom/bcm2835-gpiomem.o

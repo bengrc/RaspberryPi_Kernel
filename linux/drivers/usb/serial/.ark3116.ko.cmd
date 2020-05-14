@@ -1,1 +1,0 @@
-cmd_drivers/usb/serial/ark3116.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/serial/ark3116.ko drivers/usb/serial/ark3116.o drivers/usb/serial/ark3116.mod.o ;  true

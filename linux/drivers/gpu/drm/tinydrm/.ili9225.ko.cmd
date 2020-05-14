@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/tinydrm/ili9225.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/gpu/drm/tinydrm/ili9225.ko drivers/gpu/drm/tinydrm/ili9225.o drivers/gpu/drm/tinydrm/ili9225.mod.o ;  true

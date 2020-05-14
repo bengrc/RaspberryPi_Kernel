@@ -1,1 +1,0 @@
-cmd_net/netfilter/xt_owner.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/netfilter/xt_owner.ko net/netfilter/xt_owner.o net/netfilter/xt_owner.mod.o ;  true

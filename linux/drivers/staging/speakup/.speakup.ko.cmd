@@ -1,1 +1,0 @@
-cmd_drivers/staging/speakup/speakup.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/staging/speakup/speakup.ko drivers/staging/speakup/speakup.o drivers/staging/speakup/speakup.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/mfd/arizona-i2c.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/mfd/arizona-i2c.ko drivers/mfd/arizona-i2c.o drivers/mfd/arizona-i2c.mod.o ;  true

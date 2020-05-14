@@ -1,1 +1,0 @@
-cmd_arch/arm/crypto/sha1-arm-neon.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o arch/arm/crypto/sha1-arm-neon.ko arch/arm/crypto/sha1-arm-neon.o arch/arm/crypto/sha1-arm-neon.mod.o ;  true

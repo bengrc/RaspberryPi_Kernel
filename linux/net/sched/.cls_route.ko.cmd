@@ -1,1 +1,0 @@
-cmd_net/sched/cls_route.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/sched/cls_route.ko net/sched/cls_route.o net/sched/cls_route.mod.o ;  true

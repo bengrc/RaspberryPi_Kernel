@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/ix2505v.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/dvb-frontends/ix2505v.ko drivers/media/dvb-frontends/ix2505v.o drivers/media/dvb-frontends/ix2505v.mod.o ;  true

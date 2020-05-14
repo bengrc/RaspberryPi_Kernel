@@ -1,1 +1,0 @@
-cmd_drivers/net/ipvlan/ipvlan.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/ipvlan/ipvlan.ko drivers/net/ipvlan/ipvlan.o drivers/net/ipvlan/ipvlan.mod.o ;  true

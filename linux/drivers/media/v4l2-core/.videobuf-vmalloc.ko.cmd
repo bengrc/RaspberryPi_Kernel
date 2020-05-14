@@ -1,1 +1,0 @@
-cmd_drivers/media/v4l2-core/videobuf-vmalloc.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/v4l2-core/videobuf-vmalloc.ko drivers/media/v4l2-core/videobuf-vmalloc.o drivers/media/v4l2-core/videobuf-vmalloc.mod.o ;  true

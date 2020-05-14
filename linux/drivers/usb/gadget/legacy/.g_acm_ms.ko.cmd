@@ -1,1 +1,0 @@
-cmd_drivers/usb/gadget/legacy/g_acm_ms.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/gadget/legacy/g_acm_ms.ko drivers/usb/gadget/legacy/g_acm_ms.o drivers/usb/gadget/legacy/g_acm_ms.mod.o ;  true

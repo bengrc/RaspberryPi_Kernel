@@ -1,1 +1,0 @@
-cmd_drivers/net/hamradio/bpqether.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/hamradio/bpqether.ko drivers/net/hamradio/bpqether.o drivers/net/hamradio/bpqether.mod.o ;  true

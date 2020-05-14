@@ -1,1 +1,0 @@
-cmd_drivers/media/usb/gspca/gspca_ov534_9.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/usb/gspca/gspca_ov534_9.ko drivers/media/usb/gspca/gspca_ov534_9.o drivers/media/usb/gspca/gspca_ov534_9.mod.o ;  true

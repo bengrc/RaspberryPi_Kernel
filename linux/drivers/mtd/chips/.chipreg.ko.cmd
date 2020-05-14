@@ -1,1 +1,0 @@
-cmd_drivers/mtd/chips/chipreg.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/mtd/chips/chipreg.ko drivers/mtd/chips/chipreg.o drivers/mtd/chips/chipreg.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/tda1004x.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/dvb-frontends/tda1004x.ko drivers/media/dvb-frontends/tda1004x.o drivers/media/dvb-frontends/tda1004x.mod.o ;  true

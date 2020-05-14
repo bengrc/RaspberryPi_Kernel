@@ -1,1 +1,0 @@
-cmd_drivers/net/usb/cdc_mbim.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/usb/cdc_mbim.ko drivers/net/usb/cdc_mbim.o drivers/net/usb/cdc_mbim.mod.o ;  true

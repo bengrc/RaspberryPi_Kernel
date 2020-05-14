@@ -1,1 +1,0 @@
-cmd_drivers/hid/hid-ntrig.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/hid-ntrig.ko drivers/hid/hid-ntrig.o drivers/hid/hid-ntrig.mod.o ;  true

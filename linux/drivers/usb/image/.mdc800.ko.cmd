@@ -1,1 +1,0 @@
-cmd_drivers/usb/image/mdc800.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/image/mdc800.ko drivers/usb/image/mdc800.o drivers/usb/image/mdc800.mod.o ;  true

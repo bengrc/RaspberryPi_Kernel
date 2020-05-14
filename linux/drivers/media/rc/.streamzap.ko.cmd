@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/streamzap.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/streamzap.ko drivers/media/rc/streamzap.o drivers/media/rc/streamzap.mod.o ;  true

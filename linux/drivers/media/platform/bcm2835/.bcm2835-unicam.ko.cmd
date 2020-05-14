@@ -1,1 +1,0 @@
-cmd_drivers/media/platform/bcm2835/bcm2835-unicam.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/platform/bcm2835/bcm2835-unicam.ko drivers/media/platform/bcm2835/bcm2835-unicam.o drivers/media/platform/bcm2835/bcm2835-unicam.mod.o ;  true

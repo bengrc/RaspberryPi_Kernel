@@ -1,1 +1,0 @@
-cmd_net/netfilter/nft_quota.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/netfilter/nft_quota.ko net/netfilter/nft_quota.o net/netfilter/nft_quota.mod.o ;  true

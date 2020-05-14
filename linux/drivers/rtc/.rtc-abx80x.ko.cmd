@@ -1,1 +1,0 @@
-cmd_drivers/rtc/rtc-abx80x.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/rtc/rtc-abx80x.ko drivers/rtc/rtc-abx80x.o drivers/rtc/rtc-abx80x.mod.o ;  true

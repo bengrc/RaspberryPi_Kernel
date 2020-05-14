@@ -1,1 +1,0 @@
-cmd_drivers/tty/serdev/serdev.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/tty/serdev/serdev.ko drivers/tty/serdev/serdev.o drivers/tty/serdev/serdev.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/ralink/rt2x00/rt2x00lib.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/wireless/ralink/rt2x00/rt2x00lib.ko drivers/net/wireless/ralink/rt2x00/rt2x00lib.o drivers/net/wireless/ralink/rt2x00/rt2x00lib.mod.o ;  true

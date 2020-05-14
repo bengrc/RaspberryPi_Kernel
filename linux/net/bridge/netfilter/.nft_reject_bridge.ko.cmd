@@ -1,1 +1,0 @@
-cmd_net/bridge/netfilter/nft_reject_bridge.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/bridge/netfilter/nft_reject_bridge.ko net/bridge/netfilter/nft_reject_bridge.o net/bridge/netfilter/nft_reject_bridge.mod.o ;  true

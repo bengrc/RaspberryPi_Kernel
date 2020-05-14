@@ -1,1 +1,0 @@
-cmd_crypto/authencesn.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o crypto/authencesn.ko crypto/authencesn.o crypto/authencesn.mod.o ;  true

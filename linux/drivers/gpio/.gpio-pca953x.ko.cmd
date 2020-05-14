@@ -1,1 +1,0 @@
-cmd_drivers/gpio/gpio-pca953x.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/gpio/gpio-pca953x.ko drivers/gpio/gpio-pca953x.o drivers/gpio/gpio-pca953x.mod.o ;  true

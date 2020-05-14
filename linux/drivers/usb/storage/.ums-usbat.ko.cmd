@@ -1,1 +1,0 @@
-cmd_drivers/usb/storage/ums-usbat.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/storage/ums-usbat.ko drivers/usb/storage/ums-usbat.o drivers/usb/storage/ums-usbat.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/watchdog/built-in.a := rm -f drivers/watchdog/built-in.a; arm-linux-gnueabihf-ar rcSTPD drivers/watchdog/built-in.a drivers/watchdog/watchdog_core.o drivers/watchdog/watchdog_dev.o drivers/watchdog/bcm2835_wdt.o

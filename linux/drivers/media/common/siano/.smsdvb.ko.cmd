@@ -1,1 +1,0 @@
-cmd_drivers/media/common/siano/smsdvb.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/common/siano/smsdvb.ko drivers/media/common/siano/smsdvb.o drivers/media/common/siano/smsdvb.mod.o ;  true

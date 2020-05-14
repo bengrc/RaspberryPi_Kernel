@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/broadcom/b43/b43.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/wireless/broadcom/b43/b43.ko drivers/net/wireless/broadcom/b43/b43.o drivers/net/wireless/broadcom/b43/b43.mod.o ;  true

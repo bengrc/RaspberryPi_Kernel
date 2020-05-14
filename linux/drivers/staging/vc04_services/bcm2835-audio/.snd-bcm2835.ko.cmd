@@ -1,1 +1,0 @@
-cmd_drivers/staging/vc04_services/bcm2835-audio/snd-bcm2835.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/staging/vc04_services/bcm2835-audio/snd-bcm2835.ko drivers/staging/vc04_services/bcm2835-audio/snd-bcm2835.o drivers/staging/vc04_services/bcm2835-audio/snd-bcm2835.mod.o ;  true

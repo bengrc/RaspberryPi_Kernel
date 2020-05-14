@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/broadcom/b43legacy/b43legacy.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/wireless/broadcom/b43legacy/b43legacy.ko drivers/net/wireless/broadcom/b43legacy/b43legacy.o drivers/net/wireless/broadcom/b43legacy/b43legacy.mod.o ;  true

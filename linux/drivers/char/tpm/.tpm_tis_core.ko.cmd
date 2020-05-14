@@ -1,1 +1,0 @@
-cmd_drivers/char/tpm/tpm_tis_core.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/char/tpm/tpm_tis_core.ko drivers/char/tpm/tpm_tis_core.o drivers/char/tpm/tpm_tis_core.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/auxdisplay/hd44780.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/auxdisplay/hd44780.ko drivers/auxdisplay/hd44780.o drivers/auxdisplay/hd44780.mod.o ;  true

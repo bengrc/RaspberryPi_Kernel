@@ -1,1 +1,0 @@
-cmd_drivers/leds/leds-pca955x.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/leds/leds-pca955x.ko drivers/leds/leds-pca955x.o drivers/leds/leds-pca955x.mod.o ;  true

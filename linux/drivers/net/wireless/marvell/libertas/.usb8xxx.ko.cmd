@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/marvell/libertas/usb8xxx.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/wireless/marvell/libertas/usb8xxx.ko drivers/net/wireless/marvell/libertas/usb8xxx.o drivers/net/wireless/marvell/libertas/usb8xxx.mod.o ;  true

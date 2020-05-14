@@ -1,1 +1,0 @@
-cmd_net/sched/act_gact.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/sched/act_gact.ko net/sched/act_gact.o net/sched/act_gact.mod.o ;  true

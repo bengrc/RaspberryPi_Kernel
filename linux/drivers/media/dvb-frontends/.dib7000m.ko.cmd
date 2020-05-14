@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/dib7000m.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/dvb-frontends/dib7000m.ko drivers/media/dvb-frontends/dib7000m.o drivers/media/dvb-frontends/dib7000m.mod.o ;  true

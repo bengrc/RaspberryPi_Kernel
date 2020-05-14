@@ -1,1 +1,0 @@
-cmd_sound/core/seq/snd-seq-virmidi.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/core/seq/snd-seq-virmidi.ko sound/core/seq/snd-seq-virmidi.o sound/core/seq/snd-seq-virmidi.mod.o ;  true

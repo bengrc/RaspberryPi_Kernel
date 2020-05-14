@@ -1,1 +1,0 @@
-cmd_net/netfilter/nft_numgen.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/netfilter/nft_numgen.ko net/netfilter/nft_numgen.o net/netfilter/nft_numgen.mod.o ;  true

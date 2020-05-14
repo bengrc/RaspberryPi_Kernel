@@ -1,1 +1,0 @@
-cmd_drivers/staging/vc04_services/vc-sm-cma/vc-sm-cma.o := arm-linux-gnueabihf-ld  -EL    -r -o drivers/staging/vc04_services/vc-sm-cma/vc-sm-cma.o drivers/staging/vc04_services/vc-sm-cma/vc_sm.o drivers/staging/vc04_services/vc-sm-cma/vc_sm_cma_vchi.o 

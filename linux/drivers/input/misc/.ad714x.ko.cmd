@@ -1,1 +1,0 @@
-cmd_drivers/input/misc/ad714x.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/misc/ad714x.ko drivers/input/misc/ad714x.o drivers/input/misc/ad714x.mod.o ;  true

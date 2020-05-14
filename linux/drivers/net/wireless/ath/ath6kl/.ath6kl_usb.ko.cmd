@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/ath/ath6kl/ath6kl_usb.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/wireless/ath/ath6kl/ath6kl_usb.ko drivers/net/wireless/ath/ath6kl/ath6kl_usb.o drivers/net/wireless/ath/ath6kl/ath6kl_usb.mod.o ;  true

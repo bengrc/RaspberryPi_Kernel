@@ -1,1 +1,0 @@
-cmd_drivers/net/usb/cx82310_eth.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/usb/cx82310_eth.ko drivers/net/usb/cx82310_eth.o drivers/net/usb/cx82310_eth.mod.o ;  true

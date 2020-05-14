@@ -1,1 +1,0 @@
-cmd_drivers/misc/bcm2835_smi.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/misc/bcm2835_smi.ko drivers/misc/bcm2835_smi.o drivers/misc/bcm2835_smi.mod.o ;  true

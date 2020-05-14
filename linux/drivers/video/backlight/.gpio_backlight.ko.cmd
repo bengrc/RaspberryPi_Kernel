@@ -1,1 +1,0 @@
-cmd_drivers/video/backlight/gpio_backlight.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/video/backlight/gpio_backlight.ko drivers/video/backlight/gpio_backlight.o drivers/video/backlight/gpio_backlight.mod.o ;  true

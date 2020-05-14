@@ -1,1 +1,0 @@
-cmd_drivers/input/misc/keyspan_remote.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/misc/keyspan_remote.ko drivers/input/misc/keyspan_remote.o drivers/input/misc/keyspan_remote.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/input/gameport/ns558.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/input/gameport/ns558.ko drivers/input/gameport/ns558.o drivers/input/gameport/ns558.mod.o ;  true

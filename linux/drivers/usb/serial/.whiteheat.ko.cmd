@@ -1,1 +1,0 @@
-cmd_drivers/usb/serial/whiteheat.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/usb/serial/whiteheat.ko drivers/usb/serial/whiteheat.o drivers/usb/serial/whiteheat.mod.o ;  true

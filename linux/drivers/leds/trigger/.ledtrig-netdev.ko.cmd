@@ -1,1 +1,0 @@
-cmd_drivers/leds/trigger/ledtrig-netdev.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/leds/trigger/ledtrig-netdev.ko drivers/leds/trigger/ledtrig-netdev.o drivers/leds/trigger/ledtrig-netdev.mod.o ;  true

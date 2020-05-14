@@ -1,1 +1,0 @@
-cmd_crypto/michael_mic.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o crypto/michael_mic.ko crypto/michael_mic.o crypto/michael_mic.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_sound/soc/codecs/snd-soc-spdif-rx.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/soc/codecs/snd-soc-spdif-rx.ko sound/soc/codecs/snd-soc-spdif-rx.o sound/soc/codecs/snd-soc-spdif-rx.mod.o ;  true

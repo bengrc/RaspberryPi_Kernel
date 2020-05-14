@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/gpio-ir-tx.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/rc/gpio-ir-tx.ko drivers/media/rc/gpio-ir-tx.o drivers/media/rc/gpio-ir-tx.mod.o ;  true

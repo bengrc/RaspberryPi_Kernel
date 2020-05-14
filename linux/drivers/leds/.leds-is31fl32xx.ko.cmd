@@ -1,1 +1,0 @@
-cmd_drivers/leds/leds-is31fl32xx.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/leds/leds-is31fl32xx.ko drivers/leds/leds-is31fl32xx.o drivers/leds/leds-is31fl32xx.mod.o ;  true

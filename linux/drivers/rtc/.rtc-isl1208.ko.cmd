@@ -1,1 +1,0 @@
-cmd_drivers/rtc/rtc-isl1208.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/rtc/rtc-isl1208.ko drivers/rtc/rtc-isl1208.o drivers/rtc/rtc-isl1208.mod.o ;  true

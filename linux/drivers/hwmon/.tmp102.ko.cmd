@@ -1,1 +1,0 @@
-cmd_drivers/hwmon/tmp102.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hwmon/tmp102.ko drivers/hwmon/tmp102.o drivers/hwmon/tmp102.mod.o ;  true

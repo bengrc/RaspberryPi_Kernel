@@ -1,1 +1,0 @@
-cmd_drivers/net/can/spi/mcp251x.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/can/spi/mcp251x.ko drivers/net/can/spi/mcp251x.o drivers/net/can/spi/mcp251x.mod.o ;  true

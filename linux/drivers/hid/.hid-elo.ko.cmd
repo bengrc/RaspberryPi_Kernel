@@ -1,1 +1,0 @@
-cmd_drivers/hid/hid-elo.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/hid-elo.ko drivers/hid/hid-elo.o drivers/hid/hid-elo.mod.o ;  true

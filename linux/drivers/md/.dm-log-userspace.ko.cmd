@@ -1,1 +1,0 @@
-cmd_drivers/md/dm-log-userspace.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/md/dm-log-userspace.ko drivers/md/dm-log-userspace.o drivers/md/dm-log-userspace.mod.o ;  true

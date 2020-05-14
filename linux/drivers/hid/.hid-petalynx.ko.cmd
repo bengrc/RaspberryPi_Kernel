@@ -1,1 +1,0 @@
-cmd_drivers/hid/hid-petalynx.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/hid/hid-petalynx.ko drivers/hid/hid-petalynx.o drivers/hid/hid-petalynx.mod.o ;  true

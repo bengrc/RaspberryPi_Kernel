@@ -1,1 +1,0 @@
-cmd_net/netfilter/xt_TPROXY.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/netfilter/xt_TPROXY.ko net/netfilter/xt_TPROXY.o net/netfilter/xt_TPROXY.mod.o ;  true

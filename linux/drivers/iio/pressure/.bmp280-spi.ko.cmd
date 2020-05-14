@@ -1,1 +1,0 @@
-cmd_drivers/iio/pressure/bmp280-spi.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/iio/pressure/bmp280-spi.ko drivers/iio/pressure/bmp280-spi.o drivers/iio/pressure/bmp280-spi.mod.o ;  true

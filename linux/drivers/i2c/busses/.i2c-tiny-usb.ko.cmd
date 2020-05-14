@@ -1,1 +1,0 @@
-cmd_drivers/i2c/busses/i2c-tiny-usb.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/i2c/busses/i2c-tiny-usb.ko drivers/i2c/busses/i2c-tiny-usb.o drivers/i2c/busses/i2c-tiny-usb.mod.o ;  true

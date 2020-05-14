@@ -1,1 +1,0 @@
-cmd_net/netfilter/nf_tables_set.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/netfilter/nf_tables_set.ko net/netfilter/nf_tables_set.o net/netfilter/nf_tables_set.mod.o ;  true

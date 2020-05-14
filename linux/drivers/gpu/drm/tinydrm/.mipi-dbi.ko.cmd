@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/tinydrm/mipi-dbi.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/gpu/drm/tinydrm/mipi-dbi.ko drivers/gpu/drm/tinydrm/mipi-dbi.o drivers/gpu/drm/tinydrm/mipi-dbi.mod.o ;  true

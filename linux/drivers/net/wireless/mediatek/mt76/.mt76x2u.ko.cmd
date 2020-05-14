@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/mediatek/mt76/mt76x2u.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/wireless/mediatek/mt76/mt76x2u.ko drivers/net/wireless/mediatek/mt76/mt76x2u.o drivers/net/wireless/mediatek/mt76/mt76x2u.mod.o ;  true

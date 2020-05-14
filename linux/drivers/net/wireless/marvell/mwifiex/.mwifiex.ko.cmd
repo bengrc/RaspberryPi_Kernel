@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/marvell/mwifiex/mwifiex.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/wireless/marvell/mwifiex/mwifiex.ko drivers/net/wireless/marvell/mwifiex/mwifiex.o drivers/net/wireless/marvell/mwifiex/mwifiex.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_fs/ocfs2/cluster/ocfs2_nodemanager.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o fs/ocfs2/cluster/ocfs2_nodemanager.ko fs/ocfs2/cluster/ocfs2_nodemanager.o fs/ocfs2/cluster/ocfs2_nodemanager.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/net/ethernet/qualcomm/qca_7k_common.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/ethernet/qualcomm/qca_7k_common.ko drivers/net/ethernet/qualcomm/qca_7k_common.o drivers/net/ethernet/qualcomm/qca_7k_common.mod.o ;  true

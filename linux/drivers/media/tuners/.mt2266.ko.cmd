@@ -1,1 +1,0 @@
-cmd_drivers/media/tuners/mt2266.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/tuners/mt2266.ko drivers/media/tuners/mt2266.o drivers/media/tuners/mt2266.mod.o ;  true

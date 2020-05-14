@@ -1,2 +1,0 @@
-kernel/drivers/pci/controller/pcie-brcmstb.ko
-kernel/drivers/pci/controller/pcie-brcmstb-bounce.ko

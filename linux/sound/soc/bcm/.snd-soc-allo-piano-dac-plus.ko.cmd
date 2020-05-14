@@ -1,1 +1,0 @@
-cmd_sound/soc/bcm/snd-soc-allo-piano-dac-plus.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/soc/bcm/snd-soc-allo-piano-dac-plus.ko sound/soc/bcm/snd-soc-allo-piano-dac-plus.o sound/soc/bcm/snd-soc-allo-piano-dac-plus.mod.o ;  true

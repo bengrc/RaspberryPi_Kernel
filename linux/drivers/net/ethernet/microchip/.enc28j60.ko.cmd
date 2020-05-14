@@ -1,1 +1,0 @@
-cmd_drivers/net/ethernet/microchip/enc28j60.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/net/ethernet/microchip/enc28j60.ko drivers/net/ethernet/microchip/enc28j60.o drivers/net/ethernet/microchip/enc28j60.mod.o ;  true

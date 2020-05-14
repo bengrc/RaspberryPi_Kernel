@@ -1,1 +1,0 @@
-cmd_sound/drivers/snd-virmidi.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o sound/drivers/snd-virmidi.ko sound/drivers/snd-virmidi.o sound/drivers/snd-virmidi.mod.o ;  true

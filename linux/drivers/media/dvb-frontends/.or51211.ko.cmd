@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/or51211.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/dvb-frontends/or51211.ko drivers/media/dvb-frontends/or51211.o drivers/media/dvb-frontends/or51211.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/media/usb/zr364xx/zr364xx.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/usb/zr364xx/zr364xx.ko drivers/media/usb/zr364xx/zr364xx.o drivers/media/usb/zr364xx/zr364xx.mod.o ;  true

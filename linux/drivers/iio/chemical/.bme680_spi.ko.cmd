@@ -1,1 +1,0 @@
-cmd_drivers/iio/chemical/bme680_spi.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/iio/chemical/bme680_spi.ko drivers/iio/chemical/bme680_spi.o drivers/iio/chemical/bme680_spi.mod.o ;  true

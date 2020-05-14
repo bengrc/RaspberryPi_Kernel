@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/tinydrm/mi0283qt.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/gpu/drm/tinydrm/mi0283qt.ko drivers/gpu/drm/tinydrm/mi0283qt.o drivers/gpu/drm/tinydrm/mi0283qt.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_net/core/pktgen.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o net/core/pktgen.ko net/core/pktgen.o net/core/pktgen.mod.o ;  true

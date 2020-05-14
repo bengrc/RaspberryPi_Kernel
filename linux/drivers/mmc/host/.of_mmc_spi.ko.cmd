@@ -1,1 +1,0 @@
-cmd_drivers/mmc/host/of_mmc_spi.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/mmc/host/of_mmc_spi.ko drivers/mmc/host/of_mmc_spi.o drivers/mmc/host/of_mmc_spi.mod.o ;  true

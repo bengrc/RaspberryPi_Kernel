@@ -1,1 +1,0 @@
-cmd_drivers/media/tuners/mt2131.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o drivers/media/tuners/mt2131.ko drivers/media/tuners/mt2131.o drivers/media/tuners/mt2131.mod.o ;  true
