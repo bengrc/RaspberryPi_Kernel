@@ -1,7 +1,7 @@
 # RaspberryPi_Kernel
 A Rpi kernel for the embedded systems course.
 
-### Install dependencies needed to build the sources for cross-compilation :
+### 1 - Install dependencies needed to build the sources for cross-compilation
 ```sh
 $ sudo apt install git bc bison flex libssl-dev make libc6-dev libncurses5-dev
 ```
