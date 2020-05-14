@@ -26,7 +26,7 @@ $ source ~/.bashrc
 $ git clone --depth=1 https://github.com/raspberrypi/linux
 ```
 
-### Build sources
+#### Build sources
 
 ```sh
 $ cd linux
@@ -51,7 +51,7 @@ Then, for all:
 $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- zImage modules dtbs
 ```
 
-### Install into SD Card
+#### Install into SD Card
 
 I have a NOOBS sd card so sdb6 is the FAT (boot) partition, and sdb7 is the ext4 filesystem (root) partition.
 
