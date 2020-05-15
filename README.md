@@ -72,7 +72,7 @@ $ sudo cp mnt/fat32/kernel.img mnt/fat32/kernel-backup.img
 
   - Copy the kernel and device tree blobs into the SD card:
 ```sh
-$ sudo cp arch/arm/boot/zImage mnt/fat32/$KERNEL.img
+$ sudo cp arch/arm/boot/zImage mnt/fat32/kernel.img
 $ sudo cp arch/arm/boot/dts/*.dtb mnt/fat32/
 $ sudo cp arch/arm/boot/dts/overlays/*.dtb* mnt/fat32/overlays/
 $ sudo cp arch/arm/boot/dts/overlays/README mnt/fat32/overlays/
